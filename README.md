@@ -1,5 +1,5 @@
 # CircularSlider
-A powerful Circular Slider. It's written in Swift and it's 100% IBDesignable and IBInspectable.
+A powerful Circular Slider. It's written in Swift, it's 100% IBDesignable and all parameters are IBInspectable.
 
 # Demo
 
