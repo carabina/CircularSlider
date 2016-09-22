@@ -19,7 +19,7 @@ You can use this slider by declaring programmatically or by placing it in your S
 All the paramters are IBInspectable, so you can configure the slider directly in the Storyboard file (in the attribute inspector tab) without write any line of code!
 
 <img src="https://raw.githubusercontent.com/taglia3/CircularSlider/master/Images/storyboardRender.png" width="300">
-<img src="https://raw.githubusercontent.com/taglia3/CircularSlider/master/Images/attributeInspector.png" width="250">
+<img src="https://raw.githubusercontent.com/taglia3/CircularSlider/master/Images/attributeInspector.png" width="300">
 
 
 ## Delegate
