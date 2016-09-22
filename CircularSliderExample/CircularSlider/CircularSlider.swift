@@ -203,12 +203,22 @@ public class CircularSlider: UIView {
     // MARK: - drawing methods
     override public func drawRect(rect: CGRect) {
         print("drawRect")
+        backgroundCircleLayer.bounds = bounds
+        progressCircleLayer.bounds = bounds
+        knobLayer.bounds = bounds
+        
+        backgroundCircleLayer.position = arcCenter
+        progressCircleLayer.position = arcCenter
+        knobLayer.position = arcCenter
+        
         backgroundCircleLayer.path = getCirclePath()
         progressCircleLayer.path = getCirclePath()
         knobLayer.path = getKnobPath()
+        
         appearanceIconImageView()
         setValue(value, animated: false)
     }
+    
     
     private func getCirclePath() -> CGPath {
         return UIBezierPath(arcCenter: arcCenter,
@@ -219,7 +229,8 @@ public class CircularSlider: UIView {
     }
     
     private func getKnobPath() -> CGPath {
-        return UIBezierPath(roundedRect: CGRectMake(arcCenter.x + arcRadius - knobRadius / 2, arcCenter.y - knobRadius / 2, knobRadius, knobRadius),
+        return UIBezierPath(roundedRect:
+            CGRectMake(arcCenter.x + arcRadius - knobRadius / 2, arcCenter.y - knobRadius / 2, knobRadius, knobRadius),
                             cornerRadius: knobRadius / 2).CGPath
     }
     
