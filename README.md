@@ -17,8 +17,9 @@ pod 'CircularSlider'
 # Usage
 You can use this slider by declaring programmatically or by placing it in your Storyboard file.
 All the paramters are IBInspectable, so you can configure the slider directly in the Storyboard file (in the attribute inspector tab) without write any line of code!
-![IBInspectable params](https://raw.githubusercontent.com/taglia3/CircularSlider/master/Images/attributeInspector.png)
-![IBInspectable params](https://raw.githubusercontent.com/taglia3/CircularSlider/master/Images/storyboardRender.png)
+
+![IBInspectable params](https://raw.githubusercontent.com/taglia3/CircularSlider/master/Images/attributeInspector.png =300)
+![IBInspectable params](https://raw.githubusercontent.com/taglia3/CircularSlider/master/Images/storyboardRender.png =300x)
 
 
 ## Delegate
