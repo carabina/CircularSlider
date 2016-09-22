@@ -1,9 +1,21 @@
 # CircularSlider
-Under Dev
+A beautiful Circular SLider
 
 # Demo
 
-Coming soon
+![Slider demo](https://raw.githubusercontent.com/taglia3/CircularSlider/master/Gif/demo.gif)
+
+# Installation
+
+CircularSlider is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'CircularSlider'
+```
+
+# Usage
+
 
 ## Author
 
